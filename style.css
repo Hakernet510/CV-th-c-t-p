@@ -1,0 +1,550 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cvo-page {
+    color: #000;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 210mm;
+    min-height: 260mm;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.25);
+    background-color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+.cvo-subpage {
+    color: #000;
+    box-sizing: border-box; 
+    font-size: 100%;
+    min-height: 200mm;
+}
+
+#cvo-body {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: roboto,Arial,sans-serif;
+}
+
+#cvo-main {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-col-5 {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding: 10mm 6mm;
+    float: left;
+    width: 41.6666666667%;
+    background-color: #fff7ec;
+}
+
+#group-top-left {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#cvo-profile {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    border-bottom: 2.5px solid #ffe8c4;
+    padding: 20px 0;
+}
+
+#cvo-profile-wraper {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin-bottom: 25px;
+}
+
+#cvo-profile-fullname-wraper {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cvo-profile-fullname {
+    font-family: roboto,Arial,sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff9f0a;
+}
+
+#cvo-profile-title-wraper {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#cvo-profile-title {
+    font-family: roboto,Arial,sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #777;
+}
+
+#cvo-profile-avatar-wraper {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    display: block;
+    height: 160px;
+    width: 160px;
+    padding: 5px;
+    border: 2px solid #ff9f0a;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+#cvo-profile-avatar {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    border: 0;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cvo-block-header {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#cvo-profile-blocktitle {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    position: relative;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9f0a;
+}
+
+.cvo-block-body {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.contact-item {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin-top: 6px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.cam {
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: #ff9f0a;
+    margin-right: 10px;
+    max-width: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin-left: 25px;
+}
+
+#group-bottom-left {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.section-line {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#cvo-skillgroup {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    border-bottom: 2.5px solid #ffe8c4;
+    padding: 20px 0;
+}
+
+#cvo-skillgroup-blocktitle {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    position: relative;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9f0a;
+}
+
+.block-content {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.col-2 {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.col-1 {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-block-content {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#skill-table {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.row {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin-bottom: 10px;
+}
+
+.cvo-skillgroup-area {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.cvo-skillgroup-skill-description {
+    line-height: 25px;
+}
+ #cvo-interests {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding: 20px 0;
+    border-bottom: none;
+ }
+
+ #cvo-interest-blocktitle {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    position: relative;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9f0a;
+ }
+
+#cvo-interests-interests {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-col-7 {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding: 10mm 6mm;
+    float: left;
+    width: 58.3333333333%;
+}
+
+#group-right {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-block {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    border-bottom: 2.5px solid #ffe8c4;
+    padding: 20px 0;
+}
+
+#cvo-objective-blocktitle {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    position: relative;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9f0a;
+}
+
+#cvo-objective-objective {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#cvo-education-blocktitle {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    position: relative;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9f0a;
+}
+
+.cvo-education-school {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-weight: 700;
+    color: #555;
+    font-size: 16px;
+}
+
+.cvo-education-start {
+    font-family: roboto,Arial,sans-serif;
+    color: #9c9c9c;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-education-end {
+    font-family: roboto,Arial,sans-serif;
+    color: #9c9c9c;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-education-row {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.cvo-education-school-wraper {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    float: left;
+    width: 60%;
+}
+
+.cvo-education-time {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-size: 100%;
+    color: #9c9c9c;
+    font-style: italic;
+    float: right;
+    width: fit-content;
+    display: flex;
+    max-width: 40%;
+}
+
+.cvo-education-wraper {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 100%;
+}
+
+.cvo-education-title {
+    color: #666;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.cvo-education-details {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+#cvo-experience {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding: 20px 0;
+    border-bottom: none;
+}
+
+#cvo-experience-blocktitle {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    position: relative;
+    z-index: 1000;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9f0a;
+}
+
+#experience-table {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-experience-row {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.cvo-experience-position {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-style: inherit;
+    font-weight: 700;
+    color: #555;
+    font-size: 16px;
+    float: left;
+    width: 60%;
+}
+
+.cvo-experience-time {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-size: 100%;
+    color: #9c9c9c;
+    font-style: italic;
+    float: right;
+    width: fit-content;
+    display: flex;
+    max-width: 40%;
+}
+
+.cvo-experience-start {
+    font-family: roboto,Arial,sans-serif;
+    color: #9c9c9c;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-experience-end {
+    font-family: roboto,Arial,sans-serif;
+    color: #9c9c9c;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.cvo-experience-company-wraper {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    width: 100%;
+}
+
+.cvo-experience-details {
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 25px;
+}
+
+.cvo-clickable-link {
+    text-decoration: none;
+    font-family: roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    position: relative;
+    transition: all .15s;
+    color: inherit!important;
+}
